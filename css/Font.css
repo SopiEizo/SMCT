@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 見出し */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'sans-serif';
+	color: #FFFFFF;
+}
+
+/* ページタイトル部分 */
+.lead {
+	color: #ffffff;
+h3 {
+	font-size: 34px;
+	text-shadow: 5px 5px 6px #000000;
+}

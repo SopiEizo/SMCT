@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* サイト全体のフォント指定 */
+body {
+font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'sans-serif';
+	color:#fffff;
+background-color:#000000
+
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.video-wrap {
+  position: relative;
+}
+p {
+  font-family: serif;          
+  color: #fff;
+  font-size: 400%;
+  position: absolute;
+  left: 30%;
+  top: 200px;
+  z-index: 1;
+}

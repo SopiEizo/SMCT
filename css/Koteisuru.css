@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+/*親要素をrelativeに*/
+#example {
+  position: relative;
+}
+/*3つともabsoluteに*/
+.one, .two, .three, .four, .five{
+  position: absolute;
+}
+.one {
+  left: 80px;
+  top: 100px;
+}
+.two {
+  left: 5%;
+  top: 143%;
+}
+.three {
+  left: 5%;
+  top: 150%;
+}
+.four {
+  left: 5%;
+  top: 30%;
+}
+.five {
+  left:5%;
+  top: 110%;
+}
+/*色付けなどは省略*/
