@@ -5,11 +5,11 @@
   position: relative;
 }
 /*3つともabsoluteに*/
-.one, .two, .three, .four, .five{
+.one, .two, .three, .four, .five, .six{
   position: absolute;
 }
 .one {
-  left: 40%;
+  text-align: center;
   top: 40%;
 }
 .two {
@@ -18,7 +18,7 @@
 }
 .three {
   left: 5%;
-  top: 150%;
+  top: 155%;
 }
 .four {
   left: 5%;
@@ -26,6 +26,10 @@
 }
 .five {
   left:5%;
-  top: 100%;
+  top: 110%;
+}
+.six {
+  left:40%;
+  top: 200%;
 }
 /*色付けなどは省略*/
