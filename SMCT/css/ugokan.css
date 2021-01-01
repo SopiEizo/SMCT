@@ -9,7 +9,7 @@
   margin: 0;
   /*以下装飾*/
   width: 100%;
-  background: #FFC778;
+  background: #00000;
   color:white;
 }
 
@@ -25,3 +25,17 @@ p {
   top: 200px;
   z-index: 1;
 }
+.fixed{
+position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('img/LBFM.png') no-repeat;
+    background-size: cover;
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+	}
