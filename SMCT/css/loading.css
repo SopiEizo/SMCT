@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mv {
+  width: 100vh;
+  height: 100vh;
+  background: url(file:///F:/1_YouTube%20%E5%BE%8C%E6%9C%9F/3_Movie/4_%E3%81%9D%E3%81%AE%E4%BB%96/%E3%83%AD%E3%82%B4/SMCTLoading.mp4) no-repeat center center/cover;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*********************************
+*
+*  ローディング画面
+*
+*********************************/
+#loading {
+  /* 画面一杯にローディング画面を広げる */
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  /* flexboxを使ってローディングアイコンを画面の中央に寄せる */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* ローディングアイコン */
+.fa-redo-alt {
+  font-size: 200px;
+  color: deepskyblue;
+}
