@@ -1,4 +1,22 @@
 @charset "utf-8";
+/*下からフェードイン*/
+.fade-in-bottom {
+   opacity: 40;
+   animation-name: fadein-bottom;
+   animation-duration: 0.5s;
+   animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+}
+@keyframes fadein-bottom {
+   0% {
+      opacity: 0;
+      transform: translateY(30px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
 /* 見出し */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'sans-serif';
