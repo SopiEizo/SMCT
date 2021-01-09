@@ -1,6 +1,6 @@
 // JavaScript Document
 $(window).on('load', function(){
-  $('#loading').fadeOut();
+  setTimeout(function(){$('#loading').fadeOut();}, 3000)
 });
 $(function(){
    $(window).on('load scroll', function() {
